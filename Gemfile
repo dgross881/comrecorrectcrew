@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'mysql2', '~> 0.3.15'
 gem 'paperclip', '~> 4.1.1'
+gem 'bootstrap_helper', '~> 4.2.3'
 
 group :doc do
   gem 'sdoc', require: false
