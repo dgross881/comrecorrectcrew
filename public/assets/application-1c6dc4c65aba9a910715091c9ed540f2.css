@@ -1,0 +1,6597 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+
+
+*/
+/*!
+ * Bootstrap v3.0.0
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* line 24, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 29, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 32, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 36, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 39, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 44, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+body {
+  margin: 0;
+}
+
+/* line 47, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 51, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 54, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 58, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 62, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 65, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 68, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 73, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 80, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 84, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 87, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 90, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 94, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 100, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 103, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 106, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+img {
+  border: 0;
+}
+
+/* line 109, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 112, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+figure {
+  margin: 0;
+}
+
+/* line 115, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 120, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 127, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 133, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 137, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 143, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 148, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 152, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 156, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 163, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 167, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 171, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 175, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 181, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 186, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 190, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #b3aeb5;
+  background-color: #ffffff;
+}
+
+/* line 200, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 208, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+button,
+input,
+select[multiple],
+textarea {
+  background-image: none;
+}
+
+/* line 211, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+/* line 216, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+/* line 220, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 225, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 228, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 233, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.img-rounded {
+  border-radius: 6px;
+}
+
+/* line 236, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 248, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* line 251, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+/* line 257, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+
+@media print {
+  /* line 268, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* line 275, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 278, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 281, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 286, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 290, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 294, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 298, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 301, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 2cm .5cm;
+}
+
+  /* line 309, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 314, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* line 317, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar {
+    display: none;
+  }
+
+  /* line 321, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+
+  /* line 325, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+
+  /* line 328, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .label {
+    border: 1px solid #000;
+  }
+
+  /* line 331, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .table {
+    border-collapse: collapse !important;
+  }
+
+  /* line 335, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+/* line 339, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+p {
+  margin: 0 0 10px;
+}
+
+/* line 342, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.lead {
+  margin-bottom: 20px;
+  font-size: 16.099999999999998px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  /* line 349, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .lead {
+    font-size: 21px;
+  }
+}
+/* line 353, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 356, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+cite {
+  font-style: normal;
+}
+
+/* line 359, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-muted {
+  color: #999999;
+}
+
+/* line 362, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-primary {
+  color: #428bca;
+}
+
+/* line 365, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-warning {
+  color: #c09853;
+}
+
+/* line 368, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-danger {
+  color: #b94a48;
+}
+
+/* line 371, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-success {
+  color: #468847;
+}
+
+/* line 374, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-info {
+  color: #3a87ad;
+}
+
+/* line 377, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 380, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 383, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 397, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+/* line 413, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+
+/* line 420, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 426, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 431, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h1,
+.h1 {
+  font-size: 36px;
+}
+
+/* line 435, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h2,
+.h2 {
+  font-size: 30px;
+}
+
+/* line 439, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h3,
+.h3 {
+  font-size: 24px;
+}
+
+/* line 443, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h4,
+.h4 {
+  font-size: 18px;
+}
+
+/* line 447, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h5,
+.h5 {
+  font-size: 14px;
+}
+
+/* line 451, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+/* line 455, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h1 small,
+.h1 small {
+  font-size: 24px;
+}
+
+/* line 459, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h2 small,
+.h2 small {
+  font-size: 18px;
+}
+
+/* line 465, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+h3 small,
+.h3 small,
+h4 small,
+.h4 small {
+  font-size: 14px;
+}
+
+/* line 468, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* line 474, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* line 481, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+
+/* line 484, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* line 488, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* line 492, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 497, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+dl {
+  margin-bottom: 20px;
+}
+
+/* line 501, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+dt,
+dd {
+  line-height: 1.428571429;
+}
+
+/* line 504, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 507, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+dd {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 511, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* line 520, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .dl-horizontal dd {
+    margin-left: 180px;
+  }
+
+  /* line 524, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .dl-horizontal dd:before,
+  .dl-horizontal dd:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+  }
+
+  /* line 532, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .dl-horizontal dd:after {
+    clear: both;
+  }
+
+  /* line 536, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .dl-horizontal dd:before,
+  .dl-horizontal dd:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+  }
+
+  /* line 544, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .dl-horizontal dd:after {
+    clear: both;
+  }
+}
+/* line 549, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+
+/* line 553, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+abbr.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+/* line 557, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+}
+
+/* line 562, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote p {
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+/* line 567, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 570, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote small {
+  display: block;
+  line-height: 1.428571429;
+  color: #999999;
+}
+
+/* line 575, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote small:before {
+  content: '\2014 \00A0';
+}
+
+/* line 578, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+}
+
+/* line 585, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote.pull-right p,
+blockquote.pull-right small {
+  text-align: right;
+}
+
+/* line 588, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote.pull-right small:before {
+  content: '';
+}
+
+/* line 591, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+blockquote.pull-right small:after {
+  content: '\00A0 \2014';
+}
+
+/* line 597, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+
+/* line 600, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+address {
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.428571429;
+}
+
+/* line 606, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 613, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.container:before,
+.container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 621, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.container:after {
+  clear: both;
+}
+
+/* line 625, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.container:before,
+.container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 633, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.container:after {
+  clear: both;
+}
+
+/* line 636, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 641, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.row:before,
+.row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 649, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 653, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.row:before,
+.row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 661, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 711, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 727, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11 {
+  float: left;
+}
+
+/* line 730, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-1 {
+  width: 8.333333333333332%;
+}
+
+/* line 733, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-2 {
+  width: 16.666666666666664%;
+}
+
+/* line 736, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 739, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-4 {
+  width: 33.33333333333333%;
+}
+
+/* line 742, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-5 {
+  width: 41.66666666666667%;
+}
+
+/* line 745, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 748, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-7 {
+  width: 58.333333333333336%;
+}
+
+/* line 751, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-8 {
+  width: 66.66666666666666%;
+}
+
+/* line 754, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 757, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-10 {
+  width: 83.33333333333334%;
+}
+
+/* line 760, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-11 {
+  width: 91.66666666666666%;
+}
+
+/* line 763, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 767, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .container {
+    max-width: 750px;
+  }
+
+  /* line 780, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11 {
+    float: left;
+  }
+
+  /* line 783, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 786, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 789, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  /* line 792, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 795, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 798, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  /* line 801, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 804, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 807, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  /* line 810, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 813, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 816, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  /* line 819, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 822, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 825, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+
+  /* line 828, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 831, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 834, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+
+  /* line 837, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 840, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 843, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+
+  /* line 846, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 849, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-push-11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 852, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 855, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 858, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+
+  /* line 861, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 864, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 867, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+
+  /* line 870, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 873, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 876, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+
+  /* line 879, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 882, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-pull-11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 885, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 888, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 891, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 894, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 897, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 900, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 903, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 906, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 909, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 912, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 915, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 920, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .container {
+    max-width: 970px;
+  }
+
+  /* line 933, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11 {
+    float: left;
+  }
+
+  /* line 936, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 939, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 942, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* line 945, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 948, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 951, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* line 954, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 957, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 960, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* line 963, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 966, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 969, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 972, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-0 {
+    left: auto;
+  }
+
+  /* line 975, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 978, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 981, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+  /* line 984, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 987, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 990, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+  /* line 993, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 996, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 999, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+  /* line 1002, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 1005, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-push-11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 1008, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+  /* line 1011, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 1014, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 1017, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+  /* line 1020, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 1023, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 1026, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+  /* line 1029, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 1032, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 1035, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+  /* line 1038, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 1041, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-pull-11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 1044, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 1047, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 1050, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 1053, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 1056, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 1059, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 1062, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 1065, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 1068, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 1071, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 1074, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 1077, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1082, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .container {
+    max-width: 1000px;
+  }
+
+  /* line 1095, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11 {
+    float: left;
+  }
+
+  /* line 1098, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 1101, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 1104, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* line 1107, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 1110, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 1113, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* line 1116, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 1119, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 1122, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* line 1125, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 1128, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 1131, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  /* line 1134, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+  /* line 1137, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 1140, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 1143, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+  /* line 1146, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 1149, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 1152, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+  /* line 1155, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 1158, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 1161, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+  /* line 1164, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 1167, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-push-11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 1170, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+  /* line 1173, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 1176, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 1179, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+  /* line 1182, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 1185, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 1188, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+  /* line 1191, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 1194, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 1197, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+  /* line 1200, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 1203, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-pull-11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 1206, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 1209, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 1212, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 1215, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 1218, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 1221, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 1224, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 1227, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 1230, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 1233, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 1236, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 1239, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+/* line 1243, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 1248, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 1259, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* line 1264, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1270, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  /* IE8-9 */
+  line-height: normal;
+}
+
+/* line 1277, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="file"] {
+  display: block;
+}
+
+/* line 1281, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+/* line 1284, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+select optgroup {
+  font-size: inherit;
+  font-style: inherit;
+  font-family: inherit;
+}
+
+/* line 1291, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 1297, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  height: auto;
+}
+
+/* line 1300, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-control:-moz-placeholder {
+  color: #999999;
+}
+
+/* line 1303, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-control::-moz-placeholder {
+  color: #999999;
+}
+
+/* line 1306, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-control:-ms-input-placeholder {
+  color: #999999;
+}
+
+/* line 1309, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+
+/* line 1312, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #8c969d;
+  vertical-align: middle;
+  background-color: #dcdfe1;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/* line 1329, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* line 1337, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+
+/* line 1341, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+textarea.form-control {
+  height: auto;
+}
+
+/* line 1344, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* line 1348, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.radio,
+.checkbox {
+  display: block;
+  min-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+/* line 1357, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.radio label,
+.checkbox label {
+  display: inline;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* line 1366, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+
+/* line 1371, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.radio + .radio,
+.checkbox + .checkbox {
+  margin-top: -5px;
+}
+
+/* line 1375, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.radio-inline,
+.checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* line 1384, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+/* line 1399, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+.radio[disabled],
+.radio-inline[disabled],
+.checkbox[disabled],
+.checkbox-inline[disabled],
+fieldset[disabled] input[type="radio"],
+fieldset[disabled] input[type="checkbox"],
+fieldset[disabled] .radio,
+fieldset[disabled] .radio-inline,
+fieldset[disabled] .checkbox,
+fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+
+/* line 1402, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/* line 1409, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+select.input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 1413, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+textarea.input-sm {
+  height: auto;
+}
+
+/* line 1416, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-lg {
+  height: 45px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+/* line 1423, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+select.input-lg {
+  height: 45px;
+  line-height: 45px;
+}
+
+/* line 1427, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+textarea.input-lg {
+  height: auto;
+}
+
+/* line 1431, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-warning .help-block,
+.has-warning .control-label {
+  color: #c09853;
+}
+
+/* line 1434, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-warning .form-control {
+  border-color: #c09853;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 1439, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-warning .form-control:focus {
+  border-color: #a47e3c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+}
+
+/* line 1444, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-warning .input-group-addon {
+  color: #c09853;
+  border-color: #c09853;
+  background-color: #fcf8e3;
+}
+
+/* line 1450, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-error .help-block,
+.has-error .control-label {
+  color: #b94a48;
+}
+
+/* line 1453, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-error .form-control {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 1458, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-error .form-control:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+
+/* line 1463, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-error .input-group-addon {
+  color: #b94a48;
+  border-color: #b94a48;
+  background-color: #f2dede;
+}
+
+/* line 1469, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-success .help-block,
+.has-success .control-label {
+  color: #468847;
+}
+
+/* line 1472, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-success .form-control {
+  border-color: #468847;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 1477, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-success .form-control:focus {
+  border-color: #356635;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+}
+
+/* line 1482, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.has-success .input-group-addon {
+  color: #468847;
+  border-color: #468847;
+  background-color: #dff0d8;
+}
+
+/* line 1487, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-control-static {
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+
+/* line 1491, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #f2f1f2;
+}
+
+@media (min-width: 768px) {
+  /* line 1498, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+
+  /* line 1503, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .form-inline .form-control {
+    display: inline-block;
+  }
+
+  /* line 1507, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .form-inline .radio,
+  .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  /* line 1514, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .form-inline .radio input[type="radio"],
+  .form-inline .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+/* line 1523, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-horizontal .control-label,
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+
+/* line 1528, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 1533, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 1541, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-horizontal .form-group:after {
+  clear: both;
+}
+
+/* line 1545, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 1553, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.form-horizontal .form-group:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  /* line 1557, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .form-horizontal .control-label {
+    text-align: right;
+  }
+}
+/* line 1561, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 1580, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 1586, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn:hover,
+.btn:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 1591, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+/* line 1599, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 1607, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-default {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #cccccc;
+}
+
+/* line 1616, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #adadad;
+}
+
+/* line 1623, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-image: none;
+}
+
+/* line 1640, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #cccccc;
+}
+
+/* line 1644, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+/* line 1653, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+/* line 1660, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+/* line 1677, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+/* line 1681, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+/* line 1690, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+
+/* line 1697, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+
+/* line 1714, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-warning.disabled,
+.btn-warning[disabled],
+fieldset[disabled] .btn-warning,
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warning:active,
+.btn-warning.disabled.active,
+.btn-warning[disabled].active,
+fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+/* line 1718, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+/* line 1727, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+
+/* line 1734, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+
+/* line 1751, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-danger.disabled,
+.btn-danger[disabled],
+fieldset[disabled] .btn-danger,
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled:active,
+.btn-danger[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-danger.disabled.active,
+.btn-danger[disabled].active,
+fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+/* line 1755, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-success {
+  color: #ffffff;
+  background-color: #60b86b;
+  border-color: #4fb05b;
+}
+
+/* line 1764, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #4aa555;
+  border-color: #3c8645;
+}
+
+/* line 1771, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+
+/* line 1788, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #60b86b;
+  border-color: #4fb05b;
+}
+
+/* line 1792, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+/* line 1801, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+
+/* line 1808, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  background-image: none;
+}
+
+/* line 1825, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+/* line 1829, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-link {
+  color: #428bca;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+/* line 1838, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-link,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 1846, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+
+/* line 1850, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-link:hover,
+.btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+/* line 1858, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+
+/* line 1862, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+/* line 1869, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-sm,
+.btn-xs {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/* line 1875, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-xs {
+  padding: 1px 5px;
+}
+
+/* line 1878, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 1884, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+/* line 1889, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+}
+
+/* line 1897, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 1907, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-asterisk:before {
+  content: "\2a";
+}
+
+/* line 1910, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-plus:before {
+  content: "\2b";
+}
+
+/* line 1913, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-euro:before {
+  content: "\20ac";
+}
+
+/* line 1916, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-minus:before {
+  content: "\2212";
+}
+
+/* line 1919, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-cloud:before {
+  content: "\2601";
+}
+
+/* line 1922, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+
+/* line 1925, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-pencil:before {
+  content: "\270f";
+}
+
+/* line 1928, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-glass:before {
+  content: "\e001";
+}
+
+/* line 1931, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-music:before {
+  content: "\e002";
+}
+
+/* line 1934, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-search:before {
+  content: "\e003";
+}
+
+/* line 1937, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-heart:before {
+  content: "\e005";
+}
+
+/* line 1940, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-star:before {
+  content: "\e006";
+}
+
+/* line 1943, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-star-empty:before {
+  content: "\e007";
+}
+
+/* line 1946, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-user:before {
+  content: "\e008";
+}
+
+/* line 1949, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-film:before {
+  content: "\e009";
+}
+
+/* line 1952, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-th-large:before {
+  content: "\e010";
+}
+
+/* line 1955, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-th:before {
+  content: "\e011";
+}
+
+/* line 1958, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-th-list:before {
+  content: "\e012";
+}
+
+/* line 1961, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-ok:before {
+  content: "\e013";
+}
+
+/* line 1964, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-remove:before {
+  content: "\e014";
+}
+
+/* line 1967, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-zoom-in:before {
+  content: "\e015";
+}
+
+/* line 1970, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-zoom-out:before {
+  content: "\e016";
+}
+
+/* line 1973, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-off:before {
+  content: "\e017";
+}
+
+/* line 1976, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-signal:before {
+  content: "\e018";
+}
+
+/* line 1979, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-cog:before {
+  content: "\e019";
+}
+
+/* line 1982, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-trash:before {
+  content: "\e020";
+}
+
+/* line 1985, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-home:before {
+  content: "\e021";
+}
+
+/* line 1988, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-file:before {
+  content: "\e022";
+}
+
+/* line 1991, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-time:before {
+  content: "\e023";
+}
+
+/* line 1994, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-road:before {
+  content: "\e024";
+}
+
+/* line 1997, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-download-alt:before {
+  content: "\e025";
+}
+
+/* line 2000, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-download:before {
+  content: "\e026";
+}
+
+/* line 2003, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-upload:before {
+  content: "\e027";
+}
+
+/* line 2006, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-inbox:before {
+  content: "\e028";
+}
+
+/* line 2009, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-play-circle:before {
+  content: "\e029";
+}
+
+/* line 2012, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-repeat:before {
+  content: "\e030";
+}
+
+/* line 2015, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-refresh:before {
+  content: "\e031";
+}
+
+/* line 2018, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-list-alt:before {
+  content: "\e032";
+}
+
+/* line 2021, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-flag:before {
+  content: "\e034";
+}
+
+/* line 2024, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-headphones:before {
+  content: "\e035";
+}
+
+/* line 2027, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-volume-off:before {
+  content: "\e036";
+}
+
+/* line 2030, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-volume-down:before {
+  content: "\e037";
+}
+
+/* line 2033, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-volume-up:before {
+  content: "\e038";
+}
+
+/* line 2036, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-qrcode:before {
+  content: "\e039";
+}
+
+/* line 2039, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-barcode:before {
+  content: "\e040";
+}
+
+/* line 2042, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-tag:before {
+  content: "\e041";
+}
+
+/* line 2045, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-tags:before {
+  content: "\e042";
+}
+
+/* line 2048, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-book:before {
+  content: "\e043";
+}
+
+/* line 2051, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-print:before {
+  content: "\e045";
+}
+
+/* line 2054, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-font:before {
+  content: "\e047";
+}
+
+/* line 2057, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-bold:before {
+  content: "\e048";
+}
+
+/* line 2060, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-italic:before {
+  content: "\e049";
+}
+
+/* line 2063, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-text-height:before {
+  content: "\e050";
+}
+
+/* line 2066, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-text-width:before {
+  content: "\e051";
+}
+
+/* line 2069, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-align-left:before {
+  content: "\e052";
+}
+
+/* line 2072, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-align-center:before {
+  content: "\e053";
+}
+
+/* line 2075, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-align-right:before {
+  content: "\e054";
+}
+
+/* line 2078, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-align-justify:before {
+  content: "\e055";
+}
+
+/* line 2081, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-list:before {
+  content: "\e056";
+}
+
+/* line 2084, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-indent-left:before {
+  content: "\e057";
+}
+
+/* line 2087, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-indent-right:before {
+  content: "\e058";
+}
+
+/* line 2090, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-facetime-video:before {
+  content: "\e059";
+}
+
+/* line 2093, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-picture:before {
+  content: "\e060";
+}
+
+/* line 2096, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-map-marker:before {
+  content: "\e062";
+}
+
+/* line 2099, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-adjust:before {
+  content: "\e063";
+}
+
+/* line 2102, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-tint:before {
+  content: "\e064";
+}
+
+/* line 2105, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-edit:before {
+  content: "\e065";
+}
+
+/* line 2108, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-share:before {
+  content: "\e066";
+}
+
+/* line 2111, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-check:before {
+  content: "\e067";
+}
+
+/* line 2114, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-move:before {
+  content: "\e068";
+}
+
+/* line 2117, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-step-backward:before {
+  content: "\e069";
+}
+
+/* line 2120, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-fast-backward:before {
+  content: "\e070";
+}
+
+/* line 2123, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-backward:before {
+  content: "\e071";
+}
+
+/* line 2126, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-play:before {
+  content: "\e072";
+}
+
+/* line 2129, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-pause:before {
+  content: "\e073";
+}
+
+/* line 2132, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-stop:before {
+  content: "\e074";
+}
+
+/* line 2135, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-forward:before {
+  content: "\e075";
+}
+
+/* line 2138, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-fast-forward:before {
+  content: "\e076";
+}
+
+/* line 2141, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-step-forward:before {
+  content: "\e077";
+}
+
+/* line 2144, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-eject:before {
+  content: "\e078";
+}
+
+/* line 2147, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-chevron-left:before {
+  content: "\e079";
+}
+
+/* line 2150, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-chevron-right:before {
+  content: "\e080";
+}
+
+/* line 2153, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-plus-sign:before {
+  content: "\e081";
+}
+
+/* line 2156, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-minus-sign:before {
+  content: "\e082";
+}
+
+/* line 2159, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-remove-sign:before {
+  content: "\e083";
+}
+
+/* line 2162, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-ok-sign:before {
+  content: "\e084";
+}
+
+/* line 2165, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-question-sign:before {
+  content: "\e085";
+}
+
+/* line 2168, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-info-sign:before {
+  content: "\e086";
+}
+
+/* line 2171, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-screenshot:before {
+  content: "\e087";
+}
+
+/* line 2174, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-remove-circle:before {
+  content: "\e088";
+}
+
+/* line 2177, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-ok-circle:before {
+  content: "\e089";
+}
+
+/* line 2180, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-ban-circle:before {
+  content: "\e090";
+}
+
+/* line 2183, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-arrow-left:before {
+  content: "\e091";
+}
+
+/* line 2186, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-arrow-right:before {
+  content: "\e092";
+}
+
+/* line 2189, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-arrow-up:before {
+  content: "\e093";
+}
+
+/* line 2192, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-arrow-down:before {
+  content: "\e094";
+}
+
+/* line 2195, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-share-alt:before {
+  content: "\e095";
+}
+
+/* line 2198, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-resize-full:before {
+  content: "\e096";
+}
+
+/* line 2201, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-resize-small:before {
+  content: "\e097";
+}
+
+/* line 2204, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+
+/* line 2207, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-gift:before {
+  content: "\e102";
+}
+
+/* line 2210, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-leaf:before {
+  content: "\e103";
+}
+
+/* line 2213, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-eye-open:before {
+  content: "\e105";
+}
+
+/* line 2216, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-eye-close:before {
+  content: "\e106";
+}
+
+/* line 2219, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-warning-sign:before {
+  content: "\e107";
+}
+
+/* line 2222, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-plane:before {
+  content: "\e108";
+}
+
+/* line 2225, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-random:before {
+  content: "\e110";
+}
+
+/* line 2228, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-comment:before {
+  content: "\e111";
+}
+
+/* line 2231, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-magnet:before {
+  content: "\e112";
+}
+
+/* line 2234, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-chevron-up:before {
+  content: "\e113";
+}
+
+/* line 2237, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-chevron-down:before {
+  content: "\e114";
+}
+
+/* line 2240, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-retweet:before {
+  content: "\e115";
+}
+
+/* line 2243, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+
+/* line 2246, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-folder-close:before {
+  content: "\e117";
+}
+
+/* line 2249, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-folder-open:before {
+  content: "\e118";
+}
+
+/* line 2252, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+
+/* line 2255, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+
+/* line 2258, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-hdd:before {
+  content: "\e121";
+}
+
+/* line 2261, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-bullhorn:before {
+  content: "\e122";
+}
+
+/* line 2264, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-certificate:before {
+  content: "\e124";
+}
+
+/* line 2267, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+
+/* line 2270, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+
+/* line 2273, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-hand-right:before {
+  content: "\e127";
+}
+
+/* line 2276, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-hand-left:before {
+  content: "\e128";
+}
+
+/* line 2279, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-hand-up:before {
+  content: "\e129";
+}
+
+/* line 2282, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-hand-down:before {
+  content: "\e130";
+}
+
+/* line 2285, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+
+/* line 2288, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+
+/* line 2291, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+
+/* line 2294, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+
+/* line 2297, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-globe:before {
+  content: "\e135";
+}
+
+/* line 2300, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-tasks:before {
+  content: "\e137";
+}
+
+/* line 2303, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-filter:before {
+  content: "\e138";
+}
+
+/* line 2306, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-fullscreen:before {
+  content: "\e140";
+}
+
+/* line 2309, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-dashboard:before {
+  content: "\e141";
+}
+
+/* line 2312, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-heart-empty:before {
+  content: "\e143";
+}
+
+/* line 2315, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-link:before {
+  content: "\e144";
+}
+
+/* line 2318, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-phone:before {
+  content: "\e145";
+}
+
+/* line 2321, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-usd:before {
+  content: "\e148";
+}
+
+/* line 2324, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-gbp:before {
+  content: "\e149";
+}
+
+/* line 2327, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sort:before {
+  content: "\e150";
+}
+
+/* line 2330, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+
+/* line 2333, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+
+/* line 2336, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+
+/* line 2339, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+
+/* line 2342, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+
+/* line 2345, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+
+/* line 2348, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-unchecked:before {
+  content: "\e157";
+}
+
+/* line 2351, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-expand:before {
+  content: "\e158";
+}
+
+/* line 2354, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-collapse-down:before {
+  content: "\e159";
+}
+
+/* line 2357, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-collapse-up:before {
+  content: "\e160";
+}
+
+/* line 2360, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-log-in:before {
+  content: "\e161";
+}
+
+/* line 2363, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-flash:before {
+  content: "\e162";
+}
+
+/* line 2366, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-log-out:before {
+  content: "\e163";
+}
+
+/* line 2369, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-new-window:before {
+  content: "\e164";
+}
+
+/* line 2372, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-record:before {
+  content: "\e165";
+}
+
+/* line 2375, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-save:before {
+  content: "\e166";
+}
+
+/* line 2378, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-open:before {
+  content: "\e167";
+}
+
+/* line 2381, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-saved:before {
+  content: "\e168";
+}
+
+/* line 2384, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-import:before {
+  content: "\e169";
+}
+
+/* line 2387, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-export:before {
+  content: "\e170";
+}
+
+/* line 2390, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-send:before {
+  content: "\e171";
+}
+
+/* line 2393, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+
+/* line 2396, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+
+/* line 2399, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+
+/* line 2402, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-floppy-save:before {
+  content: "\e175";
+}
+
+/* line 2405, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-floppy-open:before {
+  content: "\e176";
+}
+
+/* line 2408, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-credit-card:before {
+  content: "\e177";
+}
+
+/* line 2411, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-transfer:before {
+  content: "\e178";
+}
+
+/* line 2414, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-cutlery:before {
+  content: "\e179";
+}
+
+/* line 2417, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-header:before {
+  content: "\e180";
+}
+
+/* line 2420, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-compressed:before {
+  content: "\e181";
+}
+
+/* line 2423, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-earphone:before {
+  content: "\e182";
+}
+
+/* line 2426, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-phone-alt:before {
+  content: "\e183";
+}
+
+/* line 2429, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-tower:before {
+  content: "\e184";
+}
+
+/* line 2432, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-stats:before {
+  content: "\e185";
+}
+
+/* line 2435, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sd-video:before {
+  content: "\e186";
+}
+
+/* line 2438, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-hd-video:before {
+  content: "\e187";
+}
+
+/* line 2441, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-subtitles:before {
+  content: "\e188";
+}
+
+/* line 2444, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+
+/* line 2447, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+
+/* line 2450, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+
+/* line 2453, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+
+/* line 2456, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+
+/* line 2459, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+
+/* line 2462, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-registration-mark:before {
+  content: "\e195";
+}
+
+/* line 2465, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-cloud-download:before {
+  content: "\e197";
+}
+
+/* line 2468, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+
+/* line 2471, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+
+/* line 2474, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-tree-deciduous:before {
+  content: "\e200";
+}
+
+/* line 2477, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-briefcase:before {
+  content: "\1f4bc";
+}
+
+/* line 2480, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-calendar:before {
+  content: "\1f4c5";
+}
+
+/* line 2483, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-pushpin:before {
+  content: "\1f4cc";
+}
+
+/* line 2486, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-paperclip:before {
+  content: "\1f4ce";
+}
+
+/* line 2489, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-camera:before {
+  content: "\1f4f7";
+}
+
+/* line 2492, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-lock:before {
+  content: "\1f512";
+}
+
+/* line 2495, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-bell:before {
+  content: "\1f514";
+}
+
+/* line 2498, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-bookmark:before {
+  content: "\1f516";
+}
+
+/* line 2501, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-fire:before {
+  content: "\1f525";
+}
+
+/* line 2504, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.glyphicon-wrench:before {
+  content: "\1f527";
+}
+
+/* line 2507, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+/* line 2512, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group.col {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 2517, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group .form-control {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* line 2523, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
+  height: 45px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+/* line 2532, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+select.input-group-lg > .form-control,
+select.input-group-lg > .input-group-addon,
+select.input-group-lg > .input-group-btn > .btn {
+  height: 45px;
+  line-height: 45px;
+}
+
+/* line 2538, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+textarea.input-group-lg > .form-control,
+textarea.input-group-lg > .input-group-addon,
+textarea.input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+
+/* line 2543, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/* line 2552, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+select.input-group-sm > .form-control,
+select.input-group-sm > .input-group-addon,
+select.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 2558, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+textarea.input-group-sm > .form-control,
+textarea.input-group-sm > .input-group-addon,
+textarea.input-group-sm > .input-group-btn > .btn {
+  height: auto;
+}
+
+/* line 2563, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+  display: table-cell;
+}
+
+/* line 2568, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon:not(:first-child):not(:last-child),
+.input-group-btn:not(:first-child):not(:last-child),
+.input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+/* line 2572, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon,
+.input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* line 2577, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+}
+
+/* line 2587, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon.input-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+/* line 2592, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon.input-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+/* line 2598, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon input[type="radio"],
+.input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+
+/* line 2605, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 2609, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon:first-child {
+  border-right: 0;
+}
+
+/* line 2616, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* line 2620, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-addon:last-child {
+  border-left: 0;
+}
+
+/* line 2623, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-btn {
+  position: relative;
+  white-space: nowrap;
+}
+
+/* line 2627, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-btn > .btn {
+  position: relative;
+}
+
+/* line 2630, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-btn > .btn + .btn {
+  margin-left: -4px;
+}
+
+/* line 2634, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.input-group-btn > .btn:hover,
+.input-group-btn > .btn:active {
+  z-index: 2;
+}
+
+/* line 2637, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* line 2643, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav:before,
+.nav:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2651, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav:after {
+  clear: both;
+}
+
+/* line 2655, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav:before,
+.nav:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2663, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav:after {
+  clear: both;
+}
+
+/* line 2666, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav > li {
+  position: relative;
+  display: block;
+}
+
+/* line 2670, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+/* line 2676, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+/* line 2680, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav > li.disabled > a {
+  color: #999999;
+}
+
+/* line 2684, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+/* line 2692, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #428bca;
+}
+
+/* line 2696, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+/* line 2702, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav > li > a > img {
+  max-width: none;
+}
+
+/* line 2705, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 2708, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+/* line 2712, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+
+/* line 2718, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+
+/* line 2723, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+/* line 2730, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+
+/* line 2734, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+
+/* line 2737, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs.nav-justified > li > a {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* line 2741, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+}
+/* line 2746, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs.nav-justified > li > a {
+  border-bottom: 1px solid #dddddd;
+  margin-right: 0;
+}
+
+/* line 2750, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs.nav-justified > .active > a {
+  border-bottom-color: #ffffff;
+}
+
+/* line 2753, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-pills > li {
+  float: left;
+}
+
+/* line 2756, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-pills > li > a {
+  border-radius: 5px;
+}
+
+/* line 2759, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+
+/* line 2764, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #428bca;
+}
+
+/* line 2768, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-stacked > li {
+  float: none;
+}
+
+/* line 2771, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+
+/* line 2775, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-justified {
+  width: 100%;
+}
+
+/* line 2778, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-justified > li {
+  float: none;
+}
+
+/* line 2781, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-justified > li > a {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* line 2785, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+}
+/* line 2790, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs-justified {
+  border-bottom: 0;
+}
+
+/* line 2793, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs-justified > li > a {
+  border-bottom: 1px solid #dddddd;
+  margin-right: 0;
+}
+
+/* line 2797, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs-justified > .active > a {
+  border-bottom-color: #ffffff;
+}
+
+/* line 2801, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.tabbable:before,
+.tabbable:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2809, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.tabbable:after {
+  clear: both;
+}
+
+/* line 2813, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.tabbable:before,
+.tabbable:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2821, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.tabbable:after {
+  clear: both;
+}
+
+/* line 2825, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+/* line 2829, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+/* line 2832, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav .caret {
+  border-top-color: #428bca;
+  border-bottom-color: #428bca;
+}
+
+/* line 2836, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav a:hover .caret {
+  border-top-color: #2a6496;
+  border-bottom-color: #2a6496;
+}
+
+/* line 2840, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* line 2845, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar {
+  position: relative;
+  z-index: 1000;
+  min-height: 80px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+/* line 2853, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar:before,
+.navbar:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2861, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar:after {
+  clear: both;
+}
+
+/* line 2865, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar:before,
+.navbar:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2873, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  /* line 2877, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar {
+    border-radius: 4px;
+  }
+}
+/* line 2882, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-header:before,
+.navbar-header:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2890, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-header:after {
+  clear: both;
+}
+
+/* line 2894, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-header:before,
+.navbar-header:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2902, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-header:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  /* line 2906, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-header {
+    float: left;
+  }
+}
+/* line 2910, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-collapse {
+  max-height: 340px;
+  overflow-x: visible;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 2920, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-collapse:before,
+.navbar-collapse:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2928, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-collapse:after {
+  clear: both;
+}
+
+/* line 2932, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-collapse:before,
+.navbar-collapse:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 2940, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-collapse:after {
+  clear: both;
+}
+
+/* line 2943, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 2947, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+
+  /* line 2952, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+
+  /* line 2958, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+
+  /* line 2961, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-collapse .navbar-nav.navbar-left:first-child {
+    margin-left: -15px;
+  }
+
+  /* line 2964, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+  }
+
+  /* line 2967, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-collapse .navbar-text:last-child {
+    margin-right: 0;
+  }
+}
+/* line 2972, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.container > .navbar-header,
+.container > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+  /* line 2978, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .container > .navbar-header,
+  .container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+/* line 2983, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-static-top {
+  border-width: 0 0 1px;
+}
+
+@media (min-width: 768px) {
+  /* line 2987, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-static-top {
+    border-radius: 0;
+  }
+}
+/* line 2992, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  border-width: 0 0 1px;
+}
+
+@media (min-width: 768px) {
+  /* line 3000, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+/* line 3004, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-fixed-top {
+  z-index: 1030;
+  top: 0;
+}
+
+/* line 3008, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+/* line 3012, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-brand {
+  float: left;
+  padding: 30px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 3019, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  /* line 3023, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar > .container .navbar-brand {
+    margin-left: -15px;
+  }
+}
+/* line 3027, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+/* line 3038, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+/* line 3044, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  /* line 3048, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-toggle {
+    display: none;
+  }
+}
+/* line 3052, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-nav {
+  margin: 15px -15px;
+}
+
+/* line 3055, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+@media (max-width: 767px) {
+  /* line 3061, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+
+  /* line 3071, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+
+  /* line 3074, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+
+  /* line 3078, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3083, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+
+  /* line 3087, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-nav > li {
+    float: left;
+  }
+
+  /* line 3090, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3096, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-left {
+    float: left !important;
+  }
+
+  /* line 3099, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-right {
+    float: right !important;
+  }
+}
+/* line 3103, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-form {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px 15px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+@media (min-width: 768px) {
+  /* line 3115, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+
+  /* line 3120, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-form .form-control {
+    display: inline-block;
+  }
+
+  /* line 3124, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-form .radio,
+  .navbar-form .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  /* line 3131, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-form .radio input[type="radio"],
+  .navbar-form .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 3137, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 3142, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-form {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+/* line 3153, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* line 3158, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* line 3163, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-nav.pull-right > li > .dropdown-menu,
+.navbar-nav > li > .dropdown-menu.pull-right {
+  left: auto;
+  right: 0;
+}
+
+/* line 3167, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-btn {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+/* line 3171, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-text {
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  /* line 3177, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-text {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+/* line 3182, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default {
+  background-color: rgba(47, 42, 49, 0.9);
+  border-color: rgba(30, 27, 31, 0.9);
+}
+
+/* line 3186, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-brand {
+  color: #777777;
+}
+
+/* line 3190, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+
+/* line 3194, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-text {
+  color: #777777;
+}
+
+/* line 3197, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #777777;
+}
+
+/* line 3201, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #333333;
+  background-color: transparent;
+}
+
+/* line 3207, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: rgba(30, 27, 31, 0.9);
+}
+
+/* line 3213, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+
+/* line 3217, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+
+/* line 3221, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+
+/* line 3224, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+
+/* line 3228, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: rgba(29, 26, 30, 0.9);
+}
+
+/* line 3232, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #333333;
+  border-bottom-color: #333333;
+}
+
+/* line 3238, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: rgba(30, 27, 31, 0.9);
+  color: #555555;
+}
+
+/* line 3244, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+
+/* line 3248, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #777777;
+  border-bottom-color: #777777;
+}
+
+@media (max-width: 767px) {
+  /* line 3253, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777777;
+  }
+
+  /* line 3257, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+    background-color: transparent;
+  }
+
+  /* line 3263, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555555;
+    background-color: rgba(30, 27, 31, 0.9);
+  }
+
+  /* line 3269, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+/* line 3274, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-link {
+  color: #777777;
+}
+
+/* line 3277, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-default .navbar-link:hover {
+  color: #333333;
+}
+
+/* line 3280, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse {
+  background-color: #222222;
+  border-color: #080808;
+}
+
+/* line 3284, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-brand {
+  color: #999999;
+}
+
+/* line 3288, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+/* line 3292, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-text {
+  color: #999999;
+}
+
+/* line 3295, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #999999;
+}
+
+/* line 3299, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+/* line 3305, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #080808;
+}
+
+/* line 3311, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+
+/* line 3315, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-toggle {
+  border-color: #333333;
+}
+
+/* line 3319, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #333333;
+}
+
+/* line 3322, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+/* line 3326, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+
+/* line 3331, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #080808;
+  color: #ffffff;
+}
+
+/* line 3335, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+/* line 3339, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+  border-top-color: #999999;
+  border-bottom-color: #999999;
+}
+
+/* line 3345, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-nav > .open > a .caret,
+.navbar-inverse .navbar-nav > .open > a:hover .caret,
+.navbar-inverse .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  /* line 3350, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+
+  /* line 3353, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #999999;
+  }
+
+  /* line 3357, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+
+  /* line 3363, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #080808;
+  }
+
+  /* line 3369, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+/* line 3374, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-link {
+  color: #999999;
+}
+
+/* line 3377, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.navbar-inverse .navbar-link:hover {
+  color: #ffffff;
+}
+
+/* line 3380, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: #ffffff;
+  background-color: #a085c6;
+}
+
+/* line 3389, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.jumbotron h1 {
+  line-height: 1;
+  color: #ffffff;
+}
+
+/* line 3393, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.jumbotron p {
+  line-height: 1.4;
+}
+
+/* line 3396, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.container .jumbotron {
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 3400, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  /* line 3404, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .container .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  /* line 3408, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .jumbotron h1 {
+    font-size: 63px;
+  }
+}
+/* line 3412, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 3425, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.thumbnail > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 3431, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-color: #428bca;
+}
+
+/* line 3434, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.thumbnail > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 3438, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.thumbnail .caption {
+  padding: 9px;
+  color: #b3aeb5;
+}
+
+/* line 3442, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel {
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+/* line 3450, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-body {
+  padding: 15px;
+}
+
+/* line 3454, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-body:before,
+.panel-body:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 3462, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-body:after {
+  clear: both;
+}
+
+/* line 3466, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-body:before,
+.panel-body:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 3474, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-body:after {
+  clear: both;
+}
+
+/* line 3477, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel > .list-group {
+  margin-bottom: 0;
+}
+
+/* line 3480, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel > .list-group .list-group-item {
+  border-width: 1px 0;
+}
+
+/* line 3483, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel > .list-group .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* line 3487, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel > .list-group .list-group-item:last-child {
+  border-bottom: 0;
+}
+
+/* line 3490, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+/* line 3493, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel > .table {
+  margin-bottom: 0;
+}
+
+/* line 3496, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel > .panel-body + .table {
+  border-top: 1px solid #dddddd;
+}
+
+/* line 3499, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+/* line 3505, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+/* line 3510, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-title > a {
+  color: inherit;
+}
+
+/* line 3513, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid none;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* line 3520, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* line 3525, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-group .panel + .panel {
+  margin-top: 5px;
+}
+
+/* line 3528, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-group .panel-heading {
+  border-bottom: 0;
+}
+
+/* line 3531, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: 1px solid none;
+}
+
+/* line 3534, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-group .panel-footer {
+  border-top: 0;
+}
+
+/* line 3537, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid none;
+}
+
+/* line 3540, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-default {
+  border-color: none;
+}
+
+/* line 3543, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: none;
+}
+
+/* line 3548, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: none;
+}
+
+/* line 3551, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-default > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: none;
+}
+
+/* line 3554, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-primary {
+  border-color: #428bca;
+}
+
+/* line 3557, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+
+/* line 3562, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #428bca;
+}
+
+/* line 3565, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #428bca;
+}
+
+/* line 3568, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-success {
+  border-color: #d6e9c6;
+}
+
+/* line 3571, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-success > .panel-heading {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+/* line 3576, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-success > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #d6e9c6;
+}
+
+/* line 3579, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-success > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #d6e9c6;
+}
+
+/* line 3582, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-warning {
+  border-color: #fbeed5;
+}
+
+/* line 3585, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-warning > .panel-heading {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #fbeed5;
+}
+
+/* line 3590, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-warning > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #fbeed5;
+}
+
+/* line 3593, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-warning > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #fbeed5;
+}
+
+/* line 3596, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-danger {
+  border-color: #eed3d7;
+}
+
+/* line 3599, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-danger > .panel-heading {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+
+/* line 3604, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-danger > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #eed3d7;
+}
+
+/* line 3607, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-danger > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #eed3d7;
+}
+
+/* line 3610, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-info {
+  border-color: #bce8f1;
+}
+
+/* line 3613, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-info > .panel-heading {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+/* line 3618, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-info > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #bce8f1;
+}
+
+/* line 3621, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.panel-info > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #bce8f1;
+}
+
+/* line 3624, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+/* line 3635, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 3642, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+/* line 3649, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-open {
+  overflow: hidden;
+}
+
+/* line 3654, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+body.modal-open,
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+  margin-right: 15px;
+}
+
+/* line 3657, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+}
+
+/* line 3668, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+/* line 3677, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+/* line 3682, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-dialog {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 10px;
+  z-index: 1050;
+}
+
+/* line 3689, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+}
+
+/* line 3700, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #000000;
+}
+
+/* line 3709, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+/* line 3713, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 3717, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.428571429px;
+}
+
+/* line 3722, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-header .close {
+  margin-top: -2px;
+}
+
+/* line 3725, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+}
+
+/* line 3729, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-body {
+  position: relative;
+  padding: 20px;
+}
+
+/* line 3733, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-footer {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* line 3740, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-footer:before,
+.modal-footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 3748, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-footer:after {
+  clear: both;
+}
+
+/* line 3752, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-footer:before,
+.modal-footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 3760, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-footer:after {
+  clear: both;
+}
+
+/* line 3763, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+/* line 3767, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+
+/* line 3770, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 3774, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .modal-dialog {
+    left: 50%;
+    right: auto;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* line 3781, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+/* line 3787, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 3795, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 3798, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.pull-right {
+  float: right !important;
+}
+
+/* line 3801, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.pull-left {
+  float: left !important;
+}
+
+/* line 3804, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 3807, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.show {
+  display: block !important;
+}
+
+/* line 3810, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 3813, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 3820, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.affix {
+  position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media screen and (max-width: 400px) {
+  @-ms-viewport {
+    width: 320px;
+}
+}
+/* line 3831, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* line 3835, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.visible-xs {
+  display: none !important;
+}
+
+/* line 3838, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.visible-xs {
+  display: none !important;
+}
+
+/* line 3842, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.visible-xs,
+td.visible-xs {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 3846, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-xs {
+    display: block !important;
+  }
+
+  /* line 3849, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 3853, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 3858, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-xs.visible-sm {
+    display: block !important;
+  }
+
+  /* line 3861, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-xs.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 3865, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-xs.visible-sm,
+  td.visible-xs.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 3870, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-xs.visible-md {
+    display: block !important;
+  }
+
+  /* line 3873, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-xs.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 3877, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-xs.visible-md,
+  td.visible-xs.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3882, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-xs.visible-lg {
+    display: block !important;
+  }
+
+  /* line 3885, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-xs.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 3889, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-xs.visible-lg,
+  td.visible-xs.visible-lg {
+    display: table-cell !important;
+  }
+}
+/* line 3893, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.visible-sm {
+  display: none !important;
+}
+
+/* line 3896, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.visible-sm {
+  display: none !important;
+}
+
+/* line 3900, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.visible-sm,
+td.visible-sm {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 3904, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-sm.visible-xs {
+    display: block !important;
+  }
+
+  /* line 3907, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-sm.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 3911, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-sm.visible-xs,
+  td.visible-sm.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 3916, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-sm {
+    display: block !important;
+  }
+
+  /* line 3919, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 3923, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 3928, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-sm.visible-md {
+    display: block !important;
+  }
+
+  /* line 3931, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-sm.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 3935, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-sm.visible-md,
+  td.visible-sm.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3940, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-sm.visible-lg {
+    display: block !important;
+  }
+
+  /* line 3943, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-sm.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 3947, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-sm.visible-lg,
+  td.visible-sm.visible-lg {
+    display: table-cell !important;
+  }
+}
+/* line 3951, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.visible-md {
+  display: none !important;
+}
+
+/* line 3954, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.visible-md {
+  display: none !important;
+}
+
+/* line 3958, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.visible-md,
+td.visible-md {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 3962, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-md.visible-xs {
+    display: block !important;
+  }
+
+  /* line 3965, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-md.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 3969, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-md.visible-xs,
+  td.visible-md.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 3974, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-md.visible-sm {
+    display: block !important;
+  }
+
+  /* line 3977, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-md.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 3981, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-md.visible-sm,
+  td.visible-md.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 3986, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-md {
+    display: block !important;
+  }
+
+  /* line 3989, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 3993, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 3998, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-md.visible-lg {
+    display: block !important;
+  }
+
+  /* line 4001, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-md.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 4005, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-md.visible-lg,
+  td.visible-md.visible-lg {
+    display: table-cell !important;
+  }
+}
+/* line 4009, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.visible-lg {
+  display: none !important;
+}
+
+/* line 4012, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.visible-lg {
+  display: none !important;
+}
+
+/* line 4016, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.visible-lg,
+td.visible-lg {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 4020, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-lg.visible-xs {
+    display: block !important;
+  }
+
+  /* line 4023, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-lg.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 4027, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-lg.visible-xs,
+  td.visible-lg.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 4032, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-lg.visible-sm {
+    display: block !important;
+  }
+
+  /* line 4035, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-lg.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 4039, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-lg.visible-sm,
+  td.visible-lg.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 4044, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-lg.visible-md {
+    display: block !important;
+  }
+
+  /* line 4047, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-lg.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 4051, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-lg.visible-md,
+  td.visible-lg.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4056, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-lg {
+    display: block !important;
+  }
+
+  /* line 4059, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 4063, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+/* line 4067, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.hidden-xs {
+  display: block !important;
+}
+
+/* line 4070, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.hidden-xs {
+  display: table-row !important;
+}
+
+/* line 4074, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.hidden-xs,
+td.hidden-xs {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+  /* line 4078, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-xs {
+    display: none !important;
+  }
+
+  /* line 4081, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 4085, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-xs,
+  td.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 4090, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-xs.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 4093, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-xs.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 4097, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-xs.hidden-sm,
+  td.hidden-xs.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 4102, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-xs.hidden-md {
+    display: none !important;
+  }
+
+  /* line 4105, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-xs.hidden-md {
+    display: none !important;
+  }
+
+  /* line 4109, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-xs.hidden-md,
+  td.hidden-xs.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4114, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-xs.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 4117, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-xs.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 4121, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-xs.hidden-lg,
+  td.hidden-xs.hidden-lg {
+    display: none !important;
+  }
+}
+/* line 4125, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.hidden-sm {
+  display: block !important;
+}
+
+/* line 4128, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.hidden-sm {
+  display: table-row !important;
+}
+
+/* line 4132, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.hidden-sm,
+td.hidden-sm {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+  /* line 4136, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-sm.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 4139, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-sm.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 4143, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-sm.hidden-xs,
+  td.hidden-sm.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 4148, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-sm {
+    display: none !important;
+  }
+
+  /* line 4151, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 4155, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-sm,
+  td.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 4160, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-sm.hidden-md {
+    display: none !important;
+  }
+
+  /* line 4163, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-sm.hidden-md {
+    display: none !important;
+  }
+
+  /* line 4167, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-sm.hidden-md,
+  td.hidden-sm.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4172, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-sm.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 4175, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-sm.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 4179, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-sm.hidden-lg,
+  td.hidden-sm.hidden-lg {
+    display: none !important;
+  }
+}
+/* line 4183, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.hidden-md {
+  display: block !important;
+}
+
+/* line 4186, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.hidden-md {
+  display: table-row !important;
+}
+
+/* line 4190, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.hidden-md,
+td.hidden-md {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+  /* line 4194, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-md.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 4197, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-md.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 4201, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-md.hidden-xs,
+  td.hidden-md.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 4206, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-md.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 4209, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-md.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 4213, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-md.hidden-sm,
+  td.hidden-md.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 4218, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-md {
+    display: none !important;
+  }
+
+  /* line 4221, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-md {
+    display: none !important;
+  }
+
+  /* line 4225, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-md,
+  td.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4230, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-md.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 4233, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-md.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 4237, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-md.hidden-lg,
+  td.hidden-md.hidden-lg {
+    display: none !important;
+  }
+}
+/* line 4241, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.hidden-lg {
+  display: block !important;
+}
+
+/* line 4244, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.hidden-lg {
+  display: table-row !important;
+}
+
+/* line 4248, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.hidden-lg,
+td.hidden-lg {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+  /* line 4252, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-lg.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 4255, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-lg.hidden-xs {
+    display: none !important;
+  }
+
+  /* line 4259, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-lg.hidden-xs,
+  td.hidden-lg.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 4264, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-lg.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 4267, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-lg.hidden-sm {
+    display: none !important;
+  }
+
+  /* line 4271, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-lg.hidden-sm,
+  td.hidden-lg.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 4276, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-lg.hidden-md {
+    display: none !important;
+  }
+
+  /* line 4279, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-lg.hidden-md {
+    display: none !important;
+  }
+
+  /* line 4283, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-lg.hidden-md,
+  td.hidden-lg.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4288, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-lg {
+    display: none !important;
+  }
+
+  /* line 4291, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-lg {
+    display: none !important;
+  }
+
+  /* line 4295, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-lg,
+  td.hidden-lg {
+    display: none !important;
+  }
+}
+/* line 4299, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+.visible-print {
+  display: none !important;
+}
+
+/* line 4302, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+tr.visible-print {
+  display: none !important;
+}
+
+/* line 4306, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+th.visible-print,
+td.visible-print {
+  display: none !important;
+}
+
+@media print {
+  /* line 4310, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .visible-print {
+    display: block !important;
+  }
+
+  /* line 4313, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.visible-print {
+    display: table-row !important;
+  }
+
+  /* line 4317, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+
+  /* line 4320, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  .hidden-print {
+    display: none !important;
+  }
+
+  /* line 4323, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  tr.hidden-print {
+    display: none !important;
+  }
+
+  /* line 4327, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/bootstrap.css.scss */
+  th.hidden-print,
+  td.hidden-print {
+    display: none !important;
+  }
+}
+/* Typography
+================================= */
+/* line 5, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+h1 {
+  font-weight: 150;
+  margin-bottom: 30px;
+}
+
+/* line 9, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+h2, h3 {
+  font-size: 1.25em;
+  color: #5f5d60;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+/* line 15, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+p {
+  color: #b3aeb5;
+  line-height: 1.7;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+/* line 21, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+strong {
+  color: #5f5d60;
+}
+
+/* line 25, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+h1 {
+  font-weight: 150;
+  margin-bottom: 30px;
+}
+
+/* line 29, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+h2, h3 {
+  font-size: 1.25em;
+  color: #5f5d60;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+/* line 35, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+p {
+  color: #b3aeb5;
+  line-height: 1.7;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+/* line 41, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+strong {
+  color: #5f5d60;
+}
+
+/* line 44, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.navbar-text {
+  font-weight: bold;
+  margin-right: 0;
+}
+
+/* line 48, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.lead {
+  color: #d5c1f2;
+  margin-bottom: 70px;
+}
+
+/* line 52, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.lead:nth-of-type(2) {
+  font-size: initial;
+  margin-bottom: 20px;
+}
+
+/* Layout
+================================= */
+/* line 60, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.ft {
+  margin-bottom: 72px;
+}
+
+/* line 63, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.ft-copy {
+  padding-top: 32px;
+}
+
+/* line 66, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.ft-copy p {
+  width: 90%;
+}
+
+/* line 69, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.panel {
+  background-image: url("form-panel-bg.png");
+  background-repeat: repeat-x;
+  border-bottom: solid 1px #eee;
+  padding: 42px 0;
+  margin: 80px 0 132px 0;
+}
+
+/* line 76, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.callout glyphicon {
+  margin: 10px;
+}
+
+/* line 79, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.teacher-desc {
+  display: block;
+}
+
+/* line 82, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.th-copy {
+  padding: 10px;
+}
+
+/* Form
+================================= */
+/* line 88, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.phone-txt {
+  padding: 24px 12px;
+  width: 90%;
+}
+
+/* line 92, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.btn-submit {
+  color: inherit;
+  font-size: 1.6em;
+  background: transparent;
+  position: absolute;
+  right: 55px;
+  bottom: 3px;
+}
+
+/* Buttons
+================================= */
+/* line 106, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.btn-default {
+  border-width: 2px;
+  border-color: inherit;
+  margin-right: 10px;
+  padding: 12px 22px;
+}
+
+/* line 112, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.btn-default:hover {
+  background-color: #fff;
+  color: #957bba;
+  border-color: #fff;
+}
+
+/* line 117, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.btn:active {
+  box-shadow: none;
+}
+
+/* line 120, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.panel .btn-default:hover {
+  background-color: #ccc;
+  color: #f7f7f7;
+  border-color: #ccc;
+}
+
+/* line 125, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.callout {
+  padding: 35px 0;
+  margin-top: 64px;
+  text-align: center;
+  border: 1px solid #e3e3e3;
+  border-right: none;
+  border-left: none;
+}
+
+/* line 133, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.callout .glyphicon {
+  margin-left: 10px;
+}
+
+/* line 136, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.btn-success {
+  box-shadow: 0 3px 0 #23812f;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
+  width: 333px;
+  padding: 15px 0;
+}
+
+/* Jumbotron
+================================= */
+/* line 146, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.jumbotron {
+  background-image: url("djacaution.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 100px 0 140px 0;
+  margin-bottom: 70px;
+}
+
+/* line 153, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.jumbotron h1 {
+  font-size: 75px;
+}
+
+/* line 157, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/* Logos & Icons
+================================= */
+/* line 163, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+body {
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 177, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #f3eded;
+}
+
+/* line 181, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #d5c1f2;
+  background-color: transparent;
+}
+
+/*.main-logo {
+	width: 124px;
+	height: 34px;
+	margin-top: 22px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('comecorrect_logo.png') no-repeat;
+	background-size: 100%;
+}*/
+/* line 196, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.navbar-brand {
+  font-family: Futura;
+  font-size: 24px;
+}
+
+/* line 201, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.navbar-default .navbar-brand {
+  color: #FFF;
+}
+
+/* line 205, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.navbar-default .navbar-brand:hover {
+  color: #D5C1F2;
+}
+
+/* line 209, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.ft-icon {
+  width: 440px;
+  height: 248px;
+  padding-right: 20px;
+  margin-right: 10px;
+  position: relative;
+  background: #8c73b0 url("Come_Correct.png") no-repeat;
+  background-size: 100%;
+}
+
+/* line 218, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.ft-icon.friends {
+  background-position: -500px 0px;
+  background: #8c73b0 url("party.png") no-repeat;
+}
+
+/* line 222, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.ft-icon.cloud {
+  background-position: 260px 0px;
+  background: #8c73b0 url("comecorrect_youtube.png") no-repeat;
+}
+
+/* line 226, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.ft-icon:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 164px;
+  height: 102px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-size: 100%;
+}
+
+/* line 239, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.friends:before {
+  background-position: 0 -105px;
+}
+
+/* line 242, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+.cloud:before {
+  background-position: 0 -210px;
+}
+
+/* line 245, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+[data-icon]::before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  margin-right: 8px;
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+/* Media Queries
+================================= */
+@media (max-width: 991px) {
+  /* line 261, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+  .jumbotron {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    background-position: 10% 10%;
+  }
+
+  /* line 266, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+  .ft-copy {
+    padding-top: 12px;
+  }
+
+  /* line 269, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+  .ft-copy p {
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  /* line 274, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+  .navbar {
+    min-height: 60px;
+  }
+
+  /* line 277, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+  .main-logo {
+    width: 82px;
+    margin-top: 20px;
+  }
+
+  /* line 281, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+  .jumbotron {
+    padding-top: 80px;
+    margin-bottom: 32px;
+  }
+
+  /* line 285, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+  .lead {
+    margin-bottom: 40px;
+  }
+
+  /* line 288, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/my-styles.css.scss */
+  .ft {
+    margin-bottom: 16px;
+  }
+}
+/* line 5, /Users/davidgross/Sites/lovebang_rails/app/assets/stylesheets/static_pages.css.scss */
+.jumbotron {
+  background-image: url("djacaution.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 100px 0 140px 0;
+  margin-bottom: 70px;
+}
