@@ -1,0 +1,290 @@
+
+/* Typography
+================================= */
+h1 {
+	font-weight: 150;
+	margin-bottom: 30px;
+}
+h2, h3 {
+	font-size: 1.25em;
+	color: #5f5d60;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+p {
+	color: #b3aeb5;
+	line-height: 1.7;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+strong {
+	color: #5f5d60;
+}
+
+h1 {
+	font-weight: 150;
+	margin-bottom: 30px;
+}
+h2, h3 {
+	font-size: 1.25em;
+	color: #5f5d60;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+p {
+	color: #b3aeb5;
+	line-height: 1.7;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+strong {
+	color: #5f5d60;
+}
+.navbar-text {
+	font-weight: bold;
+	margin-right: 0;
+}
+.lead {
+	color: #d5c1f2;
+	margin-bottom: 70px;
+}
+.lead:nth-of-type(2) {
+	font-size: initial;
+	margin-bottom: 20px;
+}
+
+/* Layout
+================================= */
+
+.ft {
+	margin-bottom: 72px;
+}
+.ft-copy {
+	padding-top: 32px;
+}
+.ft-copy p { 
+	width: 90%;
+}
+.panel {
+	background-image: url('form-panel-bg.png');
+	background-repeat: repeat-x;
+	border-bottom: solid 1px #eee;
+	padding: 42px 0;
+	margin: 80px 0 132px 0;
+}
+.callout glyphicon {
+	margin: 10px;
+}
+.teacher-desc{
+	display: block;
+}
+.th-copy{
+	padding: 10px;
+}
+/* Form
+================================= */
+
+.phone-txt {
+	padding: 24px 12px;
+	width: 90%;
+}
+.btn-submit {
+	color: inherit;
+	font-size: 1.6em;
+	background: transparent;
+	position: absolute;
+	right: 55px;
+	bottom: 3px;
+}
+
+
+/* Buttons
+================================= */
+
+
+.btn-default {
+	border-width: 2px;
+	border-color: inherit;
+	margin-right: 10px;
+	padding: 12px 22px;
+}
+.btn-default:hover {
+	background-color: #fff;
+	color: #957bba;
+	border-color: #fff;
+}
+.btn:active {
+	box-shadow: none;
+}
+.panel .btn-default:hover {
+	background-color: #ccc;
+	color: #f7f7f7;
+	border-color: #ccc;
+}
+.callout {
+	padding: 35px 0;
+	margin-top: 64px;
+	text-align: center;
+	border: 1px solid #e3e3e3;
+	border-right: none;
+	border-left: none;
+}
+.callout .glyphicon {
+	margin-left: 10px;
+}
+.btn-success{
+	box-shadow: 0 3px 0 #23812f;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	font-size:1.5em;
+	width: 333px;
+	padding: 15px 0
+}
+
+/* Jumbotron
+================================= */
+.jumbotron {
+	background-image: url('djacaution.png');
+	background-repeat: no-repeat;
+	background-position:  100% 100%;
+	padding: 100px 0 140px 0;
+	margin-bottom: 70px;
+}
+.jumbotron h1 {
+   font-size: 75px;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+/* Logos & Icons
+================================= */
+body{
+  font-size: 18px ;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.navbar-default .navbar-nav > li > a {
+   color: rgba(243, 237, 237, 1);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+   color: rgb(213, 193, 242);
+   background-color: transparent;
+}
+
+/*.main-logo {
+	width: 124px;
+	height: 34px;
+	margin-top: 22px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('comecorrect_logo.png') no-repeat;
+	background-size: 100%;
+}*/
+.navbar-brand {
+  font-family: Futura; 
+  font-size: 24px; 
+}
+
+.navbar-default .navbar-brand {
+      color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover {
+ color: #D5C1F2; 
+
+}
+.ft-icon {
+	width: 440px;
+	height: 248px;
+	padding-right: 20px;
+	margin-right: 10px;
+	position: relative;
+	background: #8c73b0 url('Come_Correct.png') no-repeat;
+	background-size: 100%;
+}
+.ft-icon.friends {
+	background-position: -500px 0px;
+	background: #8c73b0 url('party.png') no-repeat;
+}
+.ft-icon.cloud {
+	background-position: 260px 0px;
+	background: #8c73b0 url('comecorrect_youtube.png') no-repeat;
+}
+.ft-icon:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 164px;
+	height: 102px;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	margin: auto;
+	background-size: 100%;
+}
+.friends:before {
+	background-position: 0 -105px;
+}
+.cloud:before {
+	background-position: 0 -210px;
+}
+[data-icon]::before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	margin-right: 8px;
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+}
+
+
+/* Media Queries
+================================= */
+
+@media (max-width: 991px) {
+	.jumbotron {
+		padding-top: 120px;
+		padding-bottom: 20px;
+		background-position: 10% 10%;
+	}
+	.ft-copy {
+		padding-top: 12px;
+	}
+	.ft-copy p {
+		width: auto;
+	}
+}
+@media (max-width: 767px) {
+	.navbar {
+		min-height: 60px;
+	}
+	.main-logo {
+		width: 82px;
+		margin-top: 20px;
+	}
+	.jumbotron {
+		padding-top: 80px;
+		margin-bottom: 32px;
+	}
+	.lead {
+		margin-bottom: 40px;
+	}
+	.ft {
+		margin-bottom: 16px;
+	}
+}
