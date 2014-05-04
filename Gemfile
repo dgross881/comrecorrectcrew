@@ -17,10 +17,6 @@ end
 
 gem 'bcrypt-ruby', '~> 3.1.5'
 
-# gem 'unicorn'
-
-# gem 'capistrano', group: :development
-# gem 'debugger', group: [:development, :test]
 
 gem "twitter-bootstrap-rails", "~> 2.2.8"
 gem 'bootstrap-sass', '~> 3.1.1.1'
